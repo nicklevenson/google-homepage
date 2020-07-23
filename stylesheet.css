@@ -1,0 +1,324 @@
+
+#gridcontainer {
+ 
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 50px 250px 70px 70px 1fr;
+    margin-top: 10px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.about {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: left;
+    align-self: center;
+    padding-left: 30px;
+
+}
+
+#about {
+    color: black;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    
+}
+
+.store {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: left;
+    align-self: center;
+    padding-left: 80px;
+  
+    
+}
+
+
+#store {
+    color: black;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.gmail {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: right;
+    align-self: center;
+    padding-right: 130px;
+   
+}
+
+
+#gmail {
+    color: black;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.images {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: right;
+    align-self: center;
+    padding-right: 180px;
+}
+
+
+#images {
+    color: black;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.googleapps {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: right;
+    align-self: center;
+    padding-right: 80px;
+    padding-top: 2px;
+}
+
+#googleapps {
+    width: 23px;
+    height: auto;  
+}
+
+#googleapps:hover {
+    width: 25px;
+    height: auto;  
+}
+.profile {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: right;
+    align-self: center;
+    padding-right: 30px;
+    padding-top: 2px;
+}
+
+.profilecircle {
+   height: 32px;
+   width: 32px;
+   background-color: gray;
+   display: inline-block;
+   border-radius: 50%;
+}
+
+.profilecircle:hover{
+    height: 34px;
+   width: 34px;
+   background-color: gray;
+   display: inline-block;
+   border-radius: 50%;
+}
+#searchbar {
+    width: 387px;
+    height: 34px;
+    border-radius: 60px;
+  
+}
+
+.hoversearch {
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+.hoversearch:hover {
+    box-shadow: 0px 0px 5px grey;
+}
+
+
+.searchbar {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+    align-self: center;
+ 
+}
+
+.magglass {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: right;
+    align-self: flex-end;
+    padding-right: 160px;
+
+
+ 
+}
+#magglass {
+   width: 35px;
+   height: auto;
+   border-radius: 50%;
+      
+}
+
+
+.mic {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: left;
+    align-self: flex-end;
+    padding-left: 160px;
+    padding-top: 25px;
+
+ 
+}
+#mic {
+   width: 25px;
+   height: auto;
+   border-radius: 50%;
+}
+
+.buttonbox {
+    grid-column: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.submitbutton {
+  
+     grid-column: 1;
+     grid-row: 3;
+     justify-self: right;
+     align-self: center;
+     padding-top: 10px;
+     padding-right: 10px;
+    
+}
+
+#submitbutton {
+
+    width: 127px;
+    height: 36px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+
+.lucky {
+   
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: left;
+    align-self: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+   
+}
+
+#lucky {
+    width: 127px;
+    height: 36px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.google {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    padding-top: 80px;
+    
+}
+#google {
+    width: 330px;
+    height: auto;
+}
+
+
+.fbar {
+    display: grid;
+    grid-template-columns: 340px 1fr 340px;
+    grid-template-rows: 40px;
+    background-color: lightgrey;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footercontent {
+    color:#5f6368;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+
+}
+
+.box1 {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.advertising {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: right;
+    align-self: center;
+  
+}
+
+.business {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    
+  
+}
+
+.howsearchworks {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: left;
+    align-self: center;
+
+}
+
+.box2 {
+    grid-column: 3;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.privacy {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: right;
+    align-self: center;
+}
+
+.terms {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+.settings {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self:left;
+    align-self: center;
+}
